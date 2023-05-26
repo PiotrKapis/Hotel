@@ -12,6 +12,6 @@ and
 + canceling the reservation and sending an email to the guest with information about the reason for the cancellation.
 
 At the beginning, there are a few simple functionalities that can be further developed or added new ones.
-The application is written using Spring Boot.It uses Spring Data JPA repositories. It has different validation rules and two unit tests.
+The application is written using Spring Boot. It uses Spring Data JPA repositories. It has different validation rules and two unit tests.
 
 
