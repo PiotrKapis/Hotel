@@ -5,7 +5,9 @@ The application helps to manage hotel services:
 + adding a new guest to the database,
 + updating guest details,
 + deletion of guest data from the database
+
 and
+
 + calculation of the booking cost (cost of the room and additional services),
 + canceling the reservation and sending an email to the guest with information about the reason for the cancellation.
 
