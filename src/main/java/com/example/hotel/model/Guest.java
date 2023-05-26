@@ -39,6 +39,14 @@ public class Guest {
         this.email = email;
     }
 
+    public Guest(long guestId, String firstname, String lastName, String phone, String email) {
+        this.guestId = guestId;
+        this.firstname = firstname;
+        this.lastName = lastName;
+        this.phone = phone;
+        this.email = email;
+    }
+
     public Guest() {
     }
 

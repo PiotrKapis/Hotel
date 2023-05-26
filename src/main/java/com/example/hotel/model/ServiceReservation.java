@@ -25,7 +25,7 @@ public class ServiceReservation {
 
     @ManyToOne
     private AdditionalService service;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Reservation reservation;
 
     public ServiceReservation(LocalDateTime dateOrder, boolean isPaid, AdditionalService service, Reservation reservation) {
